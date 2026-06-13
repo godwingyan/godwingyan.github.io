@@ -11,20 +11,19 @@ body {
 
 header {
     text-align: center;
-    padding: 50px 20px 30px 20px;
+    padding: 80px 20px 50px 20px;
 }
 
-
 header h1 {
-    font-size: 64px;
-    margin-bottom: 10px;
+    font-size: 32px;
+    margin-bottom: 12px;
+    font-weight: 500;
 }
 
 header p {
-    font-size: 20px;
-    color: #666;
+    font-size: 15px;
+    color: #6f6a63;
 }
-
 
 main {
     width: 75%;
@@ -48,35 +47,50 @@ nav {
     top: 0;
     z-index: 100;
 }
+
 nav a {
     text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+    nav a:hover {
     color: black;
-    font-weight: bold;
 }
 
 section {
     width: 70%;
-    margin: auto;
-    padding: 60px 0;
+    margin: 80px auto;
+    padding-top: 50px;
+    border-top: 1px solid #d8d2ca;
 }
 
 h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .project-card {
     background-color: #faf7f2;
-    padding: 35px;
-    margin-bottom: 30px;
-    border: 1px solid #d8d2ca;
-    border-radius: 12px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 28px;
+    margin-bottom: 24px;
+    border: 1px solid #ddd4c8;
+    border-radius: 6px;
+    box-shadow: none;
+    transition: all 0.25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+    border-color: #c9b69d;
 }
 
 .project-card h3 {
     margin-top: 0;
-    font-size: 30px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .project-card p {
@@ -86,13 +100,17 @@ h2 {
 
 .project-card button {
     margin-top: 15px;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 8px;
-    background-color: #d9c3a5;
+    margin-right: 10px;
+    padding: 8px 14px;
+    border: 1px solid #cdbba3;
+    border-radius: 4px;
+    background-color: transparent;
     cursor: pointer;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 500;
 }
+
+
 .tags {
     margin-top: 20px;
 }
@@ -112,26 +130,10 @@ h2 {
 
 
 
-main {
-    width: 75%;
-    margin: auto;
+.section-label {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #8a8178;
+    text-transform: uppercase;
+    margin-bottom: 8px;
 }
-
-section {
-    margin: 80px 0;
-}
-
-h1 {
-    font-size: 54px;
-}
-
-h2 {
-    font-size: 36px;
-}
-
-h3 {
-    font-size: 24px;
-}
-
-
-
