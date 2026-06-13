@@ -6,18 +6,22 @@
 </head>
 <body>
 
-    <header>
-        <h1>Godwin Gyan</h1>
-        <p>Systems Engineering Student | George Mason University</p>
-    </header>
+   <header>
+    <h1>Godwin Ansu-Gyan</h1>
+    <p>Systems Engineering Student • George Mason University</p>
 
-    <nav>
-        <a href="#projects">Projects</a>
-        <a href="#systems">Systems Engineering</a>
-        <a href="#skills">Skills</a>
-        <a href="#profile">Profile</a>
-    </nav>
-
+    <div class="tags">
+        <span>Data Analytics</span>
+        <span>Systems Engineering</span>
+        <span>Embedded Systems</span>
+    </div>
+</header>
+<nav>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Technical Skills</a>
+    <a href="#profile">Background & Coursework</a>
+</nav>
+    
 <section id="projects">
     <h2>Projects</h2>
 
@@ -26,8 +30,13 @@
         <p>
             Built an end-to-end NLP analytics pipeline to analyze survey responses,
             detect sentiment, extract themes, and generate business insights using
-            Python, AWS Comprehend, and Power BI.
+            Python, AWS Comprehend, AWS S3, and Power BI.
         </p>
+        <div class="project-links">
+    <button>GitHub Repo</button>
+    <button>Case Study</button>
+    <button>Deliverables</button>
+</div>
     </div>
 
     <div class="project-card">
@@ -37,50 +46,58 @@
             that measures fingertip temperature using embedded sensors, LEDs,
             MQTT communication, and systems engineering workflows.
         </p>
+       <div class="project-links">
+    <button>GitHub Repo</button>
+    <button>Demo Video</button>
+    <button>Deliverables</button>
+</div>
     </div>
 </section>
 
-<section id="systems">
-    <h2>Systems Engineering Coursework</h2>
 
-    <p><strong>George Mason University</strong></p>
-    <p>B.S. Systems Engineering</p>
-
-    <ul>
-        <li>Systems Engineering Design</li>
-        <li>Model-Based Systems Engineering (MBSE)</li>
-        <li>Systems Architecture & Design</li>
-        <li>Requirements Engineering</li>
-        <li>Probability & Statistics</li>
-        <li>Data Analytics</li>
-        <li>Operations Research</li>
-    </ul>
-
-    <h3>Engineering Competencies</h3>
-    <ul>
-        <li>Stakeholder Analysis</li>
-        <li>CONOPS Development</li>
-        <li>System Requirements Documents (SRD)</li>
-        <li>SysML Modeling</li>
-        <li>Verification & Validation</li>
-    </ul>
-</section>
+    
 
 <section id="skills">
     <h2>Technical Skills</h2>
 
     <h3>Programming</h3>
-    <p>Python • SQL • R • MATLAB</p>
+    <div class="tags">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>R</span>
+        <span>MATLAB</span>
+    </div>
 
-    <h3>Data & Analytics</h3>
-    <p>Pandas • NumPy • Power BI • Data Visualization • NLP</p>
+    <h3>Data Pipelines & Analytics</h3>
+    <div class="tags">
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Power BI</span>
+        <span>NLP</span>
+        <span>Data Visualization</span>
+    </div>
 
     <h3>Systems Engineering</h3>
-    <p>MBSE • SysML • Requirements Analysis • CONOPS • SRD</p>
+    <div class="tags">
+        <span>MBSE</span>
+        <span>SysML</span>
+        <span>CONOPS</span>
+        <span>SRD</span>
+        <span>Requirements Analysis</span>
+    </div>
 
     <h3>Tools & Hardware</h3>
-    <p>Git • GitHub • Innoslate • MagicDraw • MQTT • Raspberry Pi Pico</p>
+    <div class="tags">
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Innoslate</span>
+        <span>MagicDraw</span>
+        <span>MQTT</span>
+        <span>Raspberry Pi Pico</span>
+        <span>Thonny IDE</span>
+    </div>
 </section>
+    
     
 <section id="profile">
     <h2>Background and Coursework</h2>
@@ -114,3 +131,21 @@
     </p>
 </body>
 </html>
+
+
+
+
+.project-links {
+    margin-top: 20px;
+}
+
+.project-links button {
+    margin-right: 12px;
+    margin-bottom: 10px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #d9c3a5;
+    cursor: pointer;
+    font-weight: bold;
+}
