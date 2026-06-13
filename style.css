@@ -26,6 +26,15 @@ header p {
 }
 
 
+main {
+    width: 75%;
+    margin: auto;
+}
+
+
+
+
+
 nav {
     display: flex;
     justify-content: center;
@@ -97,3 +106,32 @@ h2 {
     border-radius: 8px;
     font-size: 14px;
 }
+
+
+
+
+
+
+main {
+    width: 75%;
+    margin: auto;
+}
+
+section {
+    margin: 80px 0;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+
