@@ -46,3 +46,21 @@ h2 {
     font-size: 36px;
     margin-bottom: 30px;
 }
+
+.project-card {
+    background-color: #faf7f2;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #d8d2ca;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.project-card p {
+    line-height: 1.8;
+    color: #444;
+}
