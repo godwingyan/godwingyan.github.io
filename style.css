@@ -1,6 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
     background-color: #f3eee7;   /* cream/beige */
     color: #222;
 }
@@ -10,15 +14,17 @@ header {
     padding: 50px 20px 30px 20px;
 }
 
+
 header h1 {
-    font-size: 48px;
+    font-size: 64px;
     margin-bottom: 10px;
 }
 
 header p {
-    font-size: 18px;
+    font-size: 20px;
     color: #666;
 }
+
 
 nav {
     display: flex;
@@ -28,8 +34,11 @@ nav {
     border-top: 1px solid #d8d2ca;
     border-bottom: 1px solid #d8d2ca;
     background-color: #f3eee7;
-}
 
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 nav a {
     text-decoration: none;
     color: black;
@@ -49,18 +58,42 @@ h2 {
 
 .project-card {
     background-color: #faf7f2;
-    padding: 25px;
-    margin-bottom: 25px;
+    padding: 35px;
+    margin-bottom: 30px;
     border: 1px solid #d8d2ca;
-    border-radius: 8px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .project-card h3 {
     margin-top: 0;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .project-card p {
     line-height: 1.8;
     color: #444;
+}
+
+.project-card button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #d9c3a5;
+    cursor: pointer;
+    font-weight: bold;
+}
+.tags {
+    margin-top: 20px;
+}
+
+.tags span {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 6px;
+    background-color: #f8f3eb;
+    border: 1px solid #d8d2ca;
+    border-radius: 8px;
+    font-size: 14px;
 }
