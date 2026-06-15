@@ -6,7 +6,7 @@
 </head>
 <body>
 
-   <header>
+<header>
     <h1>Godwin Ansu-Gyan</h1>
     <p>Systems Engineering Student • George Mason University</p>
 
@@ -16,56 +16,119 @@
         <span>Embedded Systems</span>
     </div>
 </header>
+
 <nav>
     <a href="#projects">Projects</a>
     <a href="#skills">Technical Skills</a>
     <a href="#profile">Background & Coursework</a>
 </nav>
-    
- <main>
 
-    
-   <p class="section-label">FEATURED PROJECTS</p>
-<h2>Projects</h2>
+<main>
 
+<section id="projects">
+
+    <p class="section-label">FEATURED PROJECTS</p>
+    <h2>Projects</h2>
+
+    <!-- NLP PROJECT -->
     <div class="project-card">
-        <h3>Compass Pro Bono — NLP Pipeline</h3>
-        <img src="images/Screenshot 2026-06-14 204655.png" alt="NLP Dashboard" class="project-image">
+
+        <div class="section-label">FEATURED PROJECT</div>
+        <h3>Compass Pro Bono — NLP Survey Analysis Pipeline</h3>
+
         <p>
-            Built an end-to-end NLP analytics pipeline to analyze survey responses,
-            detect sentiment, extract themes, and generate business insights using
-            Python, AWS Comprehend, AWS S3, and Power BI.
+            Built an end-to-end NLP analytics pipeline to analyze open-ended survey responses from Compass Pro Bono clients and volunteers. The project cleans raw text data, detects sentiment, extracts recurring themes, and transforms unstructured feedback into actionable business insights using Python, AWS Comprehend, AWS S3, and Power BI.
         </p>
-        <div class="project-links">
 
+        <div class="highlight-box">
+            <strong>Business Impact:</strong>
+            Organizations often collect large amounts of qualitative survey feedback, but manually reading every response is slow and inconsistent. This pipeline automates analysis and helps decision-makers quickly identify sentiment trends, recurring concerns, and improvement opportunities.
+        </div>
 
+        <div class="spec-grid">
+            <div class="spec-card">
+                <div class="section-label">DATA SOURCE</div>
+                Open-ended survey responses
+            </div>
 
+            <div class="spec-card">
+                <div class="section-label">AI / NLP</div>
+                AWS Comprehend + Python
+            </div>
 
+            <div class="spec-card">
+                <div class="section-label">OUTPUT</div>
+                Power BI Dashboard
+            </div>
+        </div>
 
-            
-<a href="https://github.com/godwingyan/compass-probono-nlp-pipeline" target="_blank">
-    <button>GitHub Repo</button>
-</a>
+        <div class="image-card">
+            <img class="project-image" src="images/Screenshot 2026-06-14 204655.png">
+            <p>
+                <strong>Power BI Dashboard</strong><br>
+                Interactive dashboard showing sentiment distribution, theme frequency, correlations, and survey insights generated from the NLP pipeline.
+            </p>
+        </div>
 
+        <a href="https://github.com/godwingyan/compass-probono-nlp-pipeline" target="_blank">
+            <button>GitHub Repo</button>
+        </a>
 
+        <button>Case Study</button>
+        <button>Deliverables</button>
 
-
-
-            
-    <button>Case Study</button>
-    <button>Deliverables</button>
-</div>
     </div>
 
+    <!-- FINGERTIP PROJECT -->
     <div class="project-card">
+
+        <div class="section-label">FEATURED PROJECT</div>
         <h3>Fingertip Screening Device</h3>
-        <img src="images/Screenshot 2026-06-14 205246.png" alt="Fingertip Device" class="project-image">
+
         <p>
-            Designed and built a Raspberry Pi Pico–based health screening device
-            that measures fingertip temperature using embedded sensors, LEDs,
-            MQTT communication, and systems engineering workflows.
+            Designed and built an end-to-end health screening device with a partner for a systems engineering project. The device detects hand proximity using an ultrasonic sensor, reads fingertip temperature through a thermistor and ADC conversion, displays the temperature on a 4-digit LED display, and provides LED-based positioning feedback. The complete system runs on a Raspberry Pi Pico using MicroPython.
         </p>
-       <div class="project-links">
+
+        <div class="highlight-box">
+            <strong>Mission Context:</strong>
+            Built against measurable mission requirements using a full Concept of Operations (CONOPS) and System Requirements Document (SRD). Every hardware and software decision traced back to system requirements.
+        </div>
+
+        <div class="spec-grid">
+            <div class="spec-card">
+                <div class="section-label">MICROCONTROLLER</div>
+                Raspberry Pi Pico
+            </div>
+
+            <div class="spec-card">
+                <div class="section-label">SENSING</div>
+                Ultrasonic + Thermistor
+            </div>
+
+            <div class="spec-card">
+                <div class="section-label">OUTPUT</div>
+                4-digit LED + Indicator LEDs
+            </div>
+        </div>
+
+        <div class="image-row">
+            <div class="image-card">
+                <img class="project-image" src="images/Screenshot 2026-06-14 213733.png">
+                <p>
+                    <strong>Assembled Device</strong><br>
+                    Final prototype with enclosure and LED display.
+                </p>
+            </div>
+
+            <div class="image-card">
+                <img class="project-image" src="images/Screenshot 2026-06-14 221210.png">
+                <p>
+                    <strong>Internal Layout</strong><br>
+                    Sensor connector and internal board wiring.
+                </p>
+            </div>
+        </div>
+        
            
  <a href="https://github.com/godwingyan/Fingertip-Screening-Device-Systems-Engineering-Project-" target="_blank">
     <button>GitHub Repo</button>
