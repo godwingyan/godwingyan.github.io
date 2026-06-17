@@ -218,3 +218,13 @@ h2 {
     padding: 12px;
     font-size: 13px;
 }
+
+
+#skills .tags {
+    margin: 15px 0 25px 0;
+}
+
+#skills p {
+    line-height: 1.9;
+    color: #444;
+}
