@@ -193,23 +193,11 @@ h2 {
     background: #faf7f2;
 }
 
-.image-row {
-    display: flex;
-    gap: 20px;
-    margin-top: 25px;
-}
 
-.image-card {
-    flex: 1;
-    border: 1px solid #d8d2ca;
-    border-radius: 6px;
-    overflow: hidden;
-    background: #faf7f2;
-}
 
 .project-image {
     width: 100%;
-    height: 400px;
+    height: 300px;
     object-fit: contain;
     display: block;
 }
@@ -227,4 +215,10 @@ h2 {
 #skills p {
     line-height: 1.9;
     color: #444;
+}
+
+#skills .project-card {
+    background: transparent;
+    border: none;
+    padding: 0;
 }
